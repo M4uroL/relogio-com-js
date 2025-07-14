@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Relógio Digital</title>
+<link rel="stylesheet" href="meu.css">
+    
+    
+</head>
+<body>
+    <div class="clock-container">
+        <div class="time-display" id="time">00:00:00</div>
+        <div class="date-display" id="date">Domingo, 13 de Julho de 2025</div>
+        <div class="timezone-display" id="timezone">Fuso Horário: UTC</div>
+        
+        <div class="controls">
+            <button class="btn" id="format-btn">Formato 12h</button>
+            <button class="btn" id="seconds-btn">Ocultar Segundos</button>
+        </div>
+        
+        <div class="format-indicator" id="format-indicator">Formato 24 horas</div>
+    </div>
+
+    <script src="meu.js"></script>
+</body>
+</html>
